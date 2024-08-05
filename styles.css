@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Creepster', cursive;
+}
+
+h1 {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.7);
+}
+
+#short-url {
+    font-size: 1.5em;
+    color: #e74c3c;
+}
