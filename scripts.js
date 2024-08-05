@@ -10,7 +10,12 @@ document.getElementById('url-form').addEventListener('submit', function(event) {
 
     document.getElementById('short-url').innerHTML = `
         <a href="${shortUrl}" class="text-red-600 hover:underline" id="short-url-link">${shortUrl}</a>
-        <button class="copy-button" onclick="copyToClipboard('${shortUrl}')">Copy</button>
+        <button class="copy-button" onclick="copyToClipboard('${shortUrl}')">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h12M8 12h12M8 8h12M5 16h.01M5 12h.01M5 8h.01" />
+            </svg>
+            COPY
+        </button>
     `;
 });
 
