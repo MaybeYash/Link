@@ -4,7 +4,6 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Creepster', cursive;
-    text-transform: lowercase;
 }
 
 h1 {
@@ -30,10 +29,6 @@ h1 {
 
 .copy-button:hover {
     background-color: #444;
-}
-
-.copy-button svg {
-    margin-right: 5px;
 }
 
 input, button {
