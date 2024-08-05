@@ -14,3 +14,16 @@ h1 {
     font-size: 1.5em;
     color: #e74c3c;
 }
+
+.copy-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background-color: #c0392b;
+}
