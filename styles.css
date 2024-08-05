@@ -5,6 +5,7 @@ body, html {
     margin: 0;
     font-family: 'Creepster', cursive;
     text-transform: lowercase;
+    font-variant: small-caps;
 }
 
 nav {
